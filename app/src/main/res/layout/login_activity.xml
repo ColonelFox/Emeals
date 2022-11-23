@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff99"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/roundCardView"
+                android:layout_width="217dp"
+                android:layout_height="208dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:elevation="0dp"
+                android:padding="50dp"
+                app:cardCornerRadius="100dp">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="false"
+                    android:contentDescription="@string/logo"
+                    app:srcCompat="@mipmap/icon_logo"
+                    tools:srcCompat="@mipmap/icon_logo" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/roundCardView3"
+                android:layout_width="236dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:elevation="0dp"
+                android:padding="50dp"
+                app:cardCornerRadius="25dp">
+
+                <EditText
+                    android:id="@+id/email_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/app_emailAdd"
+                    android:inputType="textEmailAddress"
+                    android:minHeight="90dp"
+                    android:padding="20dp"
+                    android:textColorHint="#0097A7"
+                    android:textSize="20sp"
+                    android:theme="@style/Button.White" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/roundCardView2"
+                android:layout_width="238dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:elevation="0dp"
+                android:padding="50dp"
+                app:cardCornerRadius="25dp">
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autofillHints="no"
+                    android:ems="10"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:minHeight="90dp"
+                    android:padding="20dp"
+                    android:textColorHint="#0097A7"
+                    android:textSize="20sp"
+                    android:theme="@style/Button.White" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/loginbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:minWidth="120dp"
+                android:minHeight="60dp"
+                android:text="@string/app_login"
+                android:textColor="#00838F"
+                android:textSize="20sp"
+                android:theme="@style/Button.Gray" />
+
+            <TextView
+                android:id="@+id/forgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:text="@string/forgot_password"
+                android:textColor="#546E7A" />
+
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:text="@string/register"
+                android:textColor="#546E7A" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

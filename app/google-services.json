@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "950201794713",
+    "project_id": "emeals-test-e7b3a",
+    "storage_bucket": "emeals-test-e7b3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950201794713:android:298a0f3e29dcc5bd277808",
+        "android_client_info": {
+          "package_name": "com.example.emealstest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950201794713-mmd1sqvajehkurei1afna3f9pjb1aojs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATWD_ARlFUp-9gdnRLqDKsVJhkH_dY2tU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950201794713-mmd1sqvajehkurei1afna3f9pjb1aojs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
